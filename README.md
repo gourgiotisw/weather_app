@@ -47,7 +47,7 @@ cd weather_app
 - On Windows:
   ```bash
   python -m venv venv
-  venv\Scriptsctivate
+  venv\Scripts\activate
   ```
 - On macOS/Linux:
   ```bash
