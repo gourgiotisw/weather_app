@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+
+# Virtual environment directories
+venv/
+.venv/
+
+# Favorites file
+favorites.txt
+
+# Environment variables and config files
+.env
+config.ini
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor directories and files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Python egg files
+*.egg-info/
+*.egg
+
+# Build artifacts
+build/
+dist/
+*.pyc
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Other
+*.bak
