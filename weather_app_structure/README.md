@@ -4,19 +4,35 @@
 A command-line weather application that fetches current weather and 5-day forecasts for cities using the OpenWeatherMap API.
 
 ## Table of Contents
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-- [Additional Notes](#additional-notes)
-- [Common Issues and Solutions](#common-issues-and-solutions)
-- [Contact and Support](#contact-and-support)
+- [Weather App](#weather-app)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+    - [1. Clone the Repository](#1-clone-the-repository)
+    - [2. Set Up a Virtual Environment (Optional but Recommended)](#2-set-up-a-virtual-environment-optional-but-recommended)
+    - [3. Install Dependencies](#3-install-dependencies)
+    - [4. Obtain an OpenWeatherMap API Key](#4-obtain-an-openweathermap-api-key)
+  - [Configuration](#configuration)
+  - [Usage](#usage)
+    - [Main Menu Options](#main-menu-options)
+  - [Project Structure](#project-structure)
+  - [Dependencies](#dependencies)
+  - [Contributing](#contributing)
+    - [Fork the Repository:](#fork-the-repository)
+    - [Clone Your Fork:](#clone-your-fork)
+    - [Create a Feature Branch:](#create-a-feature-branch)
+    - [Commit Your Changes:](#commit-your-changes)
+    - [Push to the Branch:](#push-to-the-branch)
+    - [Open a Pull Request:](#open-a-pull-request)
+  - [License](#license)
+  - [Acknowledgments](#acknowledgments)
+  - [Additional Notes](#additional-notes)
+  - [Common Issues and Solutions](#common-issues-and-solutions)
+    - [Invalid API Key Error](#invalid-api-key-error)
+    - [Module Not Found Errors](#module-not-found-errors)
+    - [Virtual Environment Issues](#virtual-environment-issues)
+  - [Contact and Support](#contact-and-support)
 
 ## Features
 - **Current Weather Information**: Fetches and displays current weather data in Fahrenheit for any city.
@@ -47,7 +63,7 @@ cd weather_app
 - On Windows:
   ```bash
   python -m venv venv
-  venv\Scripts\activate
+  venv\Scriptsctivate
   ```
 - On macOS/Linux:
   ```bash
